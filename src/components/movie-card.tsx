@@ -25,7 +25,7 @@ export function MovieCard({ movie }: MovieCardProps) {
               <Image
                 src={placeholderImage.imageUrl}
                 alt={`Poster for ${movie.title}`}
-                data-ai-hint={placeholder.imageHint}
+                data-ai-hint={placeholderImage.imageHint}
                 fill
                 className="object-cover transition-transform duration-300 group-hover/link:scale-105"
               />
