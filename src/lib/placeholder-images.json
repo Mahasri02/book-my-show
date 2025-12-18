@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "movie-poster-1",
+      "description": "Poster for a futuristic sci-fi movie.",
+      "imageUrl": "https://images.unsplash.com/photo-1513704519535-f5c81aa78d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzY2ktZmklMjBtb3ZpZXxlbnwwfHx8fDE3NjU5NDQ1Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi movie"
+    },
+    {
+      "id": "movie-poster-2",
+      "description": "Poster for a heartwarming romantic comedy.",
+      "imageUrl": "https://picsum.photos/seed/movie2/400/600",
+      "imageHint": "romantic comedy"
+    },
+    {
+      "id": "movie-poster-3",
+      "description": "Poster for an intense action thriller.",
+      "imageUrl": "https://picsum.photos/seed/movie3/400/600",
+      "imageHint": "action thriller"
+    },
+    {
+      "id": "movie-poster-4",
+      "description": "Poster for an animated family adventure.",
+      "imageUrl": "https://picsum.photos/seed/movie4/400/600",
+      "imageHint": "animated adventure"
+    },
+    {
+      "id": "movie-poster-5",
+      "description": "Poster for a gripping historical drama.",
+      "imageUrl": "https://picsum.photos/seed/movie5/400/600",
+      "imageHint": "historical drama"
+    },
+    {
+      "id": "movie-poster-6",
+      "description": "Poster for a chilling horror movie.",
+      "imageUrl": "https://images.unsplash.com/photo-1580843411760-ea295173bfd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3Jyb3IlMjBtb3ZpZXxlbnwwfHx8fDE3NjU5NzM4NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "horror movie"
+    },
+    {
+      "id": "movie-hero-1",
+      "description": "Hero image for a futuristic sci-fi movie.",
+      "imageUrl": "https://images.unsplash.com/photo-1710858219135-32fab1809bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzY2ktZmklMjBiYXR0bGV8ZW58MHx8fHwxNzY2MDQyNjUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi battle"
+    },
+    {
+      "id": "movie-hero-2",
+      "description": "Hero image for a heartwarming romantic comedy.",
+      "imageUrl": "https://picsum.photos/seed/hero2/1200/500",
+      "imageHint": "couple park"
+    },
+    {
+      "id": "movie-hero-3",
+      "description": "Hero image for an intense action thriller.",
+      "imageUrl": "https://images.unsplash.com/photo-1752348510978-4575000c0e29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXIlMjBjaGFzZXxlbnwwfHx8fDE3NjU5NzE4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "car chase"
+    },
+    {
+      "id": "movie-hero-4",
+      "description": "Hero image for an animated family adventure.",
+      "imageUrl": "https://images.unsplash.com/photo-1631610039335-3de4e10e13c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmYW50YXN5JTIwd29ybGR8ZW58MHx8fHwxNzY1OTk2Mjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy world"
+    },
+    {
+      "id": "movie-hero-5",
+      "description": "Hero image for a gripping historical drama.",
+      "imageUrl": "https://images.unsplash.com/photo-1642030443214-f4dc3dea133f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhbmNpZW50JTIwYmF0dGxlZmllbGR8ZW58MHx8fHwxNzY2MDQyNjUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ancient battlefield"
+    },
+    {
+      "id": "movie-hero-6",
+      "description": "Hero image for a chilling horror movie.",
+      "imageUrl": "https://images.unsplash.com/photo-1526547462705-121430d02c2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXVudGVkJTIwaG91c2V8ZW58MHx8fHwxNzY1OTU4OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "haunted house"
+    }
+  ]
 }
