@@ -17,43 +17,45 @@ export function MovieCard({ movie }: MovieCardProps) {
   );
 
   return (
-    <Link href={`/movies/${movie.id}`} className="group block">
-      <Card className="h-full overflow-hidden transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-1">
+    <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group">
+      <Link href={`/movies/${movie.id}`} className="group/link block">
         <CardHeader className="p-0">
           <div className="relative aspect-[2/3] w-full">
             {placeholderImage && (
               <Image
                 src={placeholderImage.imageUrl}
                 alt={`Poster for ${movie.title}`}
-                data-ai-hint={placeholderImage.imageHint}
+                data-ai-hint={placeholder.imageHint}
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-cover transition-transform duration-300 group-hover/link:scale-105"
               />
             )}
           </div>
         </CardHeader>
-        <CardContent className="p-4">
+      </Link>
+      <CardContent className="p-4">
+        <Link href={`/movies/${movie.id}`}>
           <CardTitle className="mb-2 text-xl font-bold leading-tight tracking-tighter group-hover:text-primary">
             {movie.title}
           </CardTitle>
-          <div className="flex flex-wrap gap-2">
-            {movie.genres.slice(0, 2).map((genre) => (
-              <Badge key={genre} variant="secondary" className="font-normal">
-                {genre}
-              </Badge>
-            ))}
+        </Link>
+        <div className="flex flex-wrap gap-2">
+          {movie.genres.slice(0, 2).map((genre) => (
+            <Badge key={genre} variant="secondary" className="font-normal">
+              {genre}
+            </Badge>
+          ))}
+        </div>
+      </CardContent>
+      <CardFooter className="p-4 pt-0 flex justify-between items-center">
+          <div className="flex items-center gap-1">
+              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
+              <span className="text-sm font-semibold">{movie.rating.toFixed(1)}</span>
           </div>
-        </CardContent>
-        <CardFooter className="p-4 pt-0 flex justify-between items-center">
-            <div className="flex items-center gap-1">
-                <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                <span className="text-sm font-semibold">{movie.rating.toFixed(1)}</span>
-            </div>
-            <Button size="sm" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-                Book Tickets
-            </Button>
-        </CardFooter>
-      </Card>
-    </Link>
+          <Button size="sm" className="bg-accent hover:bg-accent/90 text-accent-foreground" asChild>
+              <Link href={`/booking/${movie.id}?showtime=${movie.showtimes[0].id}`}>Book Tickets</Link>
+          </Button>
+      </CardFooter>
+    </Card>
   );
 }
