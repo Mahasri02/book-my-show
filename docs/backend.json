@@ -1,0 +1,73 @@
+{
+  "entities": {
+    "User": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "User",
+      "type": "object",
+      "description": "Represents a user of the CineVerse application.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the user."
+        },
+        "username": {
+          "type": "string",
+          "description": "User's username for login."
+        },
+        "email": {
+          "type": "string",
+          "description": "User's email address.",
+          "format": "email"
+        },
+        "firstName": {
+          "type": "string",
+          "description": "User's first name."
+        },
+        "lastName": {
+          "type": "string",
+          "description": "User's last name."
+        },
+        "registrationDate": {
+          "type": "string",
+          "description": "Date and time the user registered.",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "username",
+        "email",
+        "firstName",
+        "lastName",
+        "registrationDate"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/users/{userId}",
+        "definition": {
+          "entityName": "User",
+          "schema": {
+            "$ref": "#/backend/entities/User"
+          },
+          "description": "Stores user profiles. Path-based ownership ensures only the user can read/write their own data.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier for the user."
+            }
+          ]
+        }
+      }
+    ],
+    "reasoning": "The Firestore structure is designed to support the CineVerse application's core features, focusing on user authentication, movie listings, seat selection, and real-time updates. The structure prioritizes authorization independence and simplifies security rules. User data is stored under `/users/{userId}`. This path-based ownership is simple and secure. Since this application does not need collaborative documents a more complex membership model is not required. Movie listing details and showtimes will need careful consideration for caching. To optimize listing and searching, consider denormalizing key properties into a dedicated `/movies` collection. This duplication, while increasing storage, will drastically improve query performance and reduce read costs. Seat selection could also be cached aggressively, but real-time updates are critical. Therefore, use websockets that trigger cloud functions to update Firestore on seat reservations. This ensures data consistency while providing near real-time updates to users."
+  }
+}
