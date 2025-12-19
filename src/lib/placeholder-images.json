@@ -2,75 +2,75 @@
   "placeholderImages": [
     {
       "id": "movie-poster-1",
-      "description": "Poster for a futuristic sci-fi movie.",
-      "imageUrl": "https://images.unsplash.com/photo-1513704519535-f5c81aa78d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzY2ktZmklMjBtb3ZpZXxlbnwwfHx8fDE3NjU5NDQ1Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sci-fi movie"
+      "description": "Poster for LEO",
+      "imageUrl": "https://th.bing.com/th/id/OIP.HX60OH-nZFGI8v5ehumtsAHaFj?w=226&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+      "imageHint": "action movie"
     },
     {
       "id": "movie-poster-2",
-      "description": "Poster for a heartwarming romantic comedy.",
-      "imageUrl": "https://picsum.photos/seed/movie2/400/600",
-      "imageHint": "romantic comedy"
+      "description": "Poster for Jai Bhim",
+      "imageUrl": "https://www.themoviedb.org/t/p/original/r22f20i5Pud1i0L9vCA42sW0Nf5.jpg",
+      "imageHint": "crime drama"
     },
     {
       "id": "movie-poster-3",
-      "description": "Poster for an intense action thriller.",
-      "imageUrl": "https://picsum.photos/seed/movie3/400/600",
-      "imageHint": "action thriller"
+      "description": "Poster for Vaathi",
+      "imageUrl": "https://th.bing.com/th/id/OIP.__V0LLwTJOqevxeY049MXAHaEK?w=333&h=187&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+      "imageHint": "action drama"
     },
     {
       "id": "movie-poster-4",
-      "description": "Poster for an animated family adventure.",
-      "imageUrl": "https://picsum.photos/seed/movie4/400/600",
-      "imageHint": "animated adventure"
+      "description": "Poster for Good Night",
+      "imageUrl": "https://th.bing.com/th/id/OIP.40EKvqpcSjRQg7KvAP6lfQHaEK?w=264&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+      "imageHint": "romantic comedy"
     },
     {
       "id": "movie-poster-5",
-      "description": "Poster for a gripping historical drama.",
-      "imageUrl": "https://picsum.photos/seed/movie5/400/600",
-      "imageHint": "historical drama"
+      "description": "Poster for Kadamban",
+      "imageUrl": "https://th.bing.com/th/id/OIP.fcbefsr5-JIaztcRxs79UAHaEK?w=282&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+      "imageHint": "action drama"
     },
     {
       "id": "movie-poster-6",
-      "description": "Poster for a chilling horror movie.",
-      "imageUrl": "https://images.unsplash.com/photo-1580843411760-ea295173bfd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3Jyb3IlMjBtb3ZpZXxlbnwwfHx8fDE3NjU5NzM4NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "horror movie"
+      "description": "Poster for Dragon",
+      "imageUrl": "https://th.bing.com/th/id/OIP.xu9SRAnOgxrLSDYO0PPaigHaEH?w=254&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+      "imageHint": "fantasy action"
     },
     {
       "id": "movie-hero-1",
-      "description": "Hero image for a futuristic sci-fi movie.",
-      "imageUrl": "https://images.unsplash.com/photo-1710858219135-32fab1809bef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzY2ktZmklMjBiYXR0bGV8ZW58MHx8fHwxNzY2MDQyNjUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sci-fi battle"
-    },
-    {
-      "id": "movie-hero-2",
-      "description": "Hero image for a heartwarming romantic comedy.",
-      "imageUrl": "https://picsum.photos/seed/hero2/1200/500",
-      "imageHint": "couple park"
-    },
-    {
-      "id": "movie-hero-3",
-      "description": "Hero image for an intense action thriller.",
+      "description": "Hero image for LEO",
       "imageUrl": "https://images.unsplash.com/photo-1752348510978-4575000c0e29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXIlMjBjaGFzZXxlbnwwfHx8fDE3NjU5NzE4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "car chase"
     },
     {
+      "id": "movie-hero-2",
+      "description": "Hero image for Jai Bhim",
+      "imageUrl": "https://images.unsplash.com/photo-1628126233575-f754b238383b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "court justice"
+    },
+    {
+      "id": "movie-hero-3",
+      "description": "Hero image for Vaathi",
+      "imageUrl": "https://images.unsplash.com/photo-1491841550275-5b462bf98d28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "school classroom"
+    },
+    {
       "id": "movie-hero-4",
-      "description": "Hero image for an animated family adventure.",
-      "imageUrl": "https://images.unsplash.com/photo-1631610039335-3de4e10e13c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmYW50YXN5JTIwd29ybGR8ZW58MHx8fHwxNzY1OTk2Mjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fantasy world"
+      "description": "Hero image for Good Night",
+      "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=1778&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "cozy bedroom"
     },
     {
       "id": "movie-hero-5",
-      "description": "Hero image for a gripping historical drama.",
-      "imageUrl": "https://images.unsplash.com/photo-1642030443214-f4dc3dea133f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhbmNpZW50JTIwYmF0dGxlZmllbGR8ZW58MHx8fHwxNzY2MDQyNjUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ancient battlefield"
+      "description": "Hero image for Kadamban",
+      "imageUrl": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "jungle forest"
     },
     {
       "id": "movie-hero-6",
-      "description": "Hero image for a chilling horror movie.",
-      "imageUrl": "https://images.unsplash.com/photo-1526547462705-121430d02c2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXVudGVkJTIwaG91c2V8ZW58MHx8fHwxNzY1OTU4OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "haunted house"
+      "description": "Hero image for Dragon",
+      "imageUrl": "https://images.unsplash.com/photo-1550100136-70133c4604a3?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "fantasy dragon"
     }
   ]
 }

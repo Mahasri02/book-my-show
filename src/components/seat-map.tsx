@@ -42,13 +42,14 @@ const generateSeats = (): Seat[] => {
   return initialSeats;
 };
 
-const TICKET_PRICE = 12.50;
+const TICKET_PRICE = 250;
 
 export function SeatMap() {
   const [seats, setSeats] = useState<Seat[]>([]);
   const { toast } = useToast();
 
   useEffect(() => {
+    // Generate seats on the client side only to avoid hydration mismatch
     setSeats(generateSeats());
   }, []);
 
@@ -161,7 +162,7 @@ export function SeatMap() {
                     <Separator />
                     <div className="flex justify-between items-center text-lg font-bold">
                         <span>Total</span>
-                        <span>${totalPrice.toFixed(2)}</span>
+                        <span>₹{totalPrice.toFixed(2)}</span>
                     </div>
                 </div>
             ) : (
@@ -179,7 +180,7 @@ export function SeatMap() {
                 <AlertDialogHeader>
                   <AlertDialogTitle>Confirm Your Payment</AlertDialogTitle>
                   <AlertDialogDescription>
-                    You are about to purchase {selectedSeats.length} ticket(s) for a total of ${totalPrice.toFixed(2)}. This is a mock payment gateway.
+                    You are about to purchase {selectedSeats.length} ticket(s) for a total of ₹{totalPrice.toFixed(2)}. This is a mock payment gateway.
                   </AlertDialogDescription>
                 </AlertDialogHeader>
                 <AlertDialogFooter>
