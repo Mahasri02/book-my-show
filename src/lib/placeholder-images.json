@@ -2,75 +2,75 @@
   "placeholderImages": [
     {
       "id": "movie-poster-1",
-      "description": "Poster for LEO",
-      "imageUrl": "https://th.bing.com/th/id/OIP.HX60OH-nZFGI8v5ehumtsAHaFj?w=226&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-      "imageHint": "action movie"
+      "description": "Poster for 3 Idiots",
+      "imageUrl": "https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2xsZWdlJTIwZnJpZW5kc3xlbnwwfHx8fDE3NjYxMTQ5NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "college friends"
     },
     {
       "id": "movie-poster-2",
-      "description": "Poster for Jai Bhim",
-      "imageUrl": "https://www.themoviedb.org/t/p/original/r22f20i5Pud1i0L9vCA42sW0Nf5.jpg",
-      "imageHint": "crime drama"
+      "description": "Poster for Dangal",
+      "imageUrl": "https://images.unsplash.com/photo-1764908912127-885314cb5c21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3cmVzdGxpbmclMjBzcG9ydHxlbnwwfHx8fDE3NjYxMTY5NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wrestling sport"
     },
     {
       "id": "movie-poster-3",
-      "description": "Poster for Vaathi",
-      "imageUrl": "https://th.bing.com/th/id/OIP.__V0LLwTJOqevxeY049MXAHaEK?w=333&h=187&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-      "imageHint": "action drama"
+      "description": "Poster for PK",
+      "imageUrl": "https://images.unsplash.com/photo-1714241759740-75a397e2a174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhbGllbiUyMGRlc2VydHxlbnwwfHx8fDE3NjYxMTY5NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "alien desert"
     },
     {
       "id": "movie-poster-4",
-      "description": "Poster for Good Night",
-      "imageUrl": "https://th.bing.com/th/id/OIP.40EKvqpcSjRQg7KvAP6lfQHaEK?w=264&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-      "imageHint": "romantic comedy"
+      "description": "Poster for Bajrangi Bhaijaan",
+      "imageUrl": "https://images.unsplash.com/photo-1628540310675-cae5b623b100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBjaGlsZHxlbnwwfHx8fDE3NjYxMTY5NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man child"
     },
     {
       "id": "movie-poster-5",
-      "description": "Poster for Kadamban",
-      "imageUrl": "https://th.bing.com/th/id/OIP.fcbefsr5-JIaztcRxs79UAHaEK?w=282&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-      "imageHint": "action drama"
+      "description": "Poster for Queen",
+      "imageUrl": "https://images.unsplash.com/photo-1609883475215-029a8d12426a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHRyYXZlbGluZ3xlbnwwfHx8fDE3NjYwNzUzNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman traveling"
     },
     {
       "id": "movie-poster-6",
-      "description": "Poster for Vikram",
-      "imageUrl": "https://www.themoviedb.org/t/p/original/rJ2D02nCt3l4I3Fcf1Bf2SjXn0h.jpg",
-      "imageHint": "action thriller"
+      "description": "Poster for Andhadhun",
+      "imageUrl": "https://images.unsplash.com/photo-1595441464981-f14316f1b623?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaWFubyUyMGNyaW1lfGVufDB8fHx8MTc2NjExNjk0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "piano crime"
     },
     {
       "id": "movie-hero-1",
-      "description": "Hero image for LEO",
-      "imageUrl": "https://images.unsplash.com/photo-1752348510978-4575000c0e29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYXIlMjBjaGFzZXxlbnwwfHx8fDE3NjU5NzE4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "car chase"
+      "description": "Hero image for 3 Idiots",
+      "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "college campus"
     },
     {
       "id": "movie-hero-2",
-      "description": "Hero image for Jai Bhim",
-      "imageUrl": "https://images.unsplash.com/photo-1628126233575-f754b238383b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "court justice"
+      "description": "Hero image for Dangal",
+      "imageUrl": "https://images.unsplash.com/photo-1582065599289-55590003c242?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "wrestling match"
     },
     {
       "id": "movie-hero-3",
-      "description": "Hero image for Vaathi",
-      "imageUrl": "https://images.unsplash.com/photo-1491841550275-5b462bf98d28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "school classroom"
+      "description": "Hero image for PK",
+      "imageUrl": "https://images.unsplash.com/photo-1509316976878-5a8b0939335a?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "rajasthan desert"
     },
     {
       "id": "movie-hero-4",
-      "description": "Hero image for Good Night",
-      "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=1778&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "cozy bedroom"
+      "description": "Hero image for Bajrangi Bhaijaan",
+      "imageUrl": "https://images.unsplash.com/photo-1616423841125-8307664a3420?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "himalayas landscape"
     },
     {
       "id": "movie-hero-5",
-      "description": "Hero image for Kadamban",
-      "imageUrl": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "jungle forest"
+      "description": "Hero image for Queen",
+      "imageUrl": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "paris eiffel"
     },
     {
       "id": "movie-hero-6",
-      "description": "Hero image for Vikram",
-      "imageUrl": "https://images.unsplash.com/photo-1599599810694-b5b37304c847?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "masked agent"
+      "description": "Hero image for Andhadhun",
+      "imageUrl": "https://images.unsplash.com/photo-1518199266794-259eac943c2c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "piano music"
     }
   ]
 }
