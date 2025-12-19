@@ -125,18 +125,32 @@ const movies: Movie[] = [
   },
 ];
 
+const attachImageUrls = (movie: Movie): Movie => {
+    const posterImage = PlaceHolderImages.find(img => img.id === movie.posterImageId);
+    const heroImage = PlaceHolderImages.find(img => img.id === movie.heroImageId);
+    return {
+      ...movie,
+      posterImageUrl: posterImage?.imageUrl,
+      heroImageUrl: heroImage?.imageUrl,
+    }
+}
+
 // This function simulates fetching data from an API.
 // In a real Next.js app, this would be an API call, and Next.js would cache the result.
 export async function getMovies(query: string = ''): Promise<Movie[]> {
   console.log('Fetching movies...');
   await new Promise(resolve => setTimeout(resolve, 500)); // Simulate network delay
   
+  let filteredMovies = movies;
+
   if (query) {
-    return movies.filter(movie => movie.title.toLowerCase().includes(query.toLowerCase()));
+    filteredMovies = movies.filter(movie => movie.title.toLowerCase().includes(query.toLowerCase()));
   }
   
+  const moviesWithImages = filteredMovies.map(attachImageUrls);
+  
   console.log('Movies fetched.');
-  return movies;
+  return moviesWithImages;
 }
 
 export async function getMovieById(id: string): Promise<Movie | undefined> {
@@ -146,16 +160,9 @@ export async function getMovieById(id: string): Promise<Movie | undefined> {
   const movie = movies.find(movie => movie.id === id);
 
   if (movie) {
-    // Attach full image URLs
-    const posterImage = PlaceHolderImages.find(img => img.id === movie.posterImageId);
-    const heroImage = PlaceHolderImages.find(img => img.id === movie.heroImageId);
-    return {
-      ...movie,
-      posterImageUrl: posterImage?.imageUrl,
-      heroImageUrl: heroImage?.imageUrl,
-    }
+    console.log('Movie fetched.');
+    return attachImageUrls(movie);
   }
-
-  console.log('Movie fetched.');
-  return movie;
+  
+  return undefined;
 }
