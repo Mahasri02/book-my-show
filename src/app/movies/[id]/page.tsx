@@ -2,7 +2,6 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getMovieById } from '@/lib/data';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -17,16 +16,13 @@ export default async function MovieDetailPage({ params }: { params: { id: string
     notFound();
   }
 
-  const heroImage = PlaceHolderImages.find((img) => img.id === movie.heroImageId);
-
   return (
     <div className="animate-in fade-in-50">
       <section className="relative h-[40vh] md:h-[50vh] w-full">
-        {heroImage && (
+        {movie.heroImageUrl && (
           <Image
-            src={heroImage.imageUrl}
+            src={movie.heroImageUrl}
             alt={`Hero image for ${movie.title}`}
-            data-ai-hint={heroImage.imageHint}
             fill
             className="object-cover"
             priority

@@ -24,4 +24,6 @@ export type Movie = {
   heroImageId: string;
   reviews: Review[];
   showtimes: Showtime[];
+  posterImageUrl?: string;
+  heroImageUrl?: string;
 };

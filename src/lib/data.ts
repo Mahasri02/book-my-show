@@ -1,5 +1,4 @@
 import type { Movie } from '@/lib/types';
-import { PlaceHolderImages } from './placeholder-images';
 
 const movies: Movie[] = [
   {
@@ -13,6 +12,8 @@ const movies: Movie[] = [
     duration: '2h 50m',
     posterImageId: 'movie-poster-1',
     heroImageId: 'movie-hero-1',
+    posterImageUrl: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jc3Q2wfcA7n9t3a4s42NE36c99V.jpg',
+    heroImageUrl: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     reviews: [
       { id: 'r1-1', author: 'Cinephile_Alia', rating: 5, text: 'An absolute masterpiece. A movie that will make you laugh, cry, and think. A must-watch for all ages.' },
       { id: 'r1-2', author: 'ReviewRaja', rating: 5, text: 'A perfect blend of comedy and emotion with a powerful message about the education system. Truly iconic.' },
@@ -33,6 +34,8 @@ const movies: Movie[] = [
     duration: '2h 41m',
     posterImageId: 'movie-poster-2',
     heroImageId: 'movie-hero-2',
+    posterImageUrl: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/p2SdfGmQRaw8J6xYX5bI8P14B8.jpg',
+    heroImageUrl: 'https://images.unsplash.com/photo-1582065599289-55590003c242?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     reviews: [
       { id: 'r2-1', author: 'KritiKa_Review', rating: 5, text: 'Inspiring and powerful. Aamir Khan and the entire cast delivered stellar performances. The wrestling scenes are intense!' },
       { id: 'r2-2', author: 'BollywoodBuff', rating: 4, text: 'A fantastic story of empowerment and determination. A bit long, but completely worth it.' },
@@ -53,6 +56,8 @@ const movies: Movie[] = [
     duration: '2h 33m',
     posterImageId: 'movie-poster-3',
     heroImageId: 'movie-hero-3',
+    posterImageUrl: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tA2z2IqYg63S2A4d2yp9Q0B5Q4s.jpg',
+    heroImageUrl: 'https://images.unsplash.com/photo-1509316976878-5a8b0939335a?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     reviews: [
       { id: 'r3-1', author: 'Aman_views', rating: 5, text: 'A thought-provoking satire that is both hilarious and heartwarming. Aamir Khan is brilliant as PK.' },
       { id: 'r3-2', author: 'FilmyFever', rating: 4, text: 'A unique concept with a great message. Some parts might feel a bit preachy, but overall a great watch.' },
@@ -73,6 +78,8 @@ const movies: Movie[] = [
     duration: '2h 43m',
     posterImageId: 'movie-poster-4',
     heroImageId: 'movie-hero-4',
+    posterImageUrl: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wA3IeZ2QYJp0K0a07a233Dfn133.jpg',
+    heroImageUrl: 'https://images.unsplash.com/photo-1616423841125-8307664a3420?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG9otby1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     reviews: [
       { id: 'r4-1', author: 'Priya_Patel', rating: 5, text: 'Such a beautiful and emotional movie. Salman Khan gives one of his best performances. The little girl is adorable!' },
       { id: 'r4-2', author: 'CinemaScope', rating: 4, text: 'A heartwarming cross-border story that will leave you with a smile. The music is also fantastic.' },
@@ -94,6 +101,8 @@ const movies: Movie[] = [
     duration: '2h 26m',
     posterImageId: 'movie-poster-5',
     heroImageId: 'movie-hero-5',
+    posterImageUrl: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/u51y0T4bZ3f4R9d2TA2a2V3M5hS.jpg',
+    heroImageUrl: 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     reviews: [
       { id: 'r5-1', author: 'Rani_Reviews', rating: 5, text: 'Absolutely loved it! Kangana Ranaut is phenomenal. A very empowering and fun movie.' },
       { id: 'r5-2', author: 'CriticVarun', rating: 5, text: 'A refreshing and beautifully made film. It\'s a celebration of independence and life.' },
@@ -114,6 +123,8 @@ const movies: Movie[] = [
     duration: '2h 19m',
     posterImageId: 'movie-poster-6',
     heroImageId: 'movie-hero-6',
+    posterImageUrl: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dy3K6h4n23g2s5S1i5GgH7aJtDD.jpg',
+    heroImageUrl: 'https://images.unsplash.com/photo-1518199266794-259eac943c2c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     reviews: [
       { id: 'r6-1', author: 'SuspenseSeeker', rating: 5, text: 'A mind-bending thriller with twists at every corner. Ayushmann Khurrana is a genius!' },
       { id: 'r6-2', author: 'TaranTheTrader', rating: 5, text: 'One of the best thrillers to come out of Bollywood. The ending will leave you speechless. A must-see!' },
@@ -125,15 +136,6 @@ const movies: Movie[] = [
   },
 ];
 
-const attachImageUrls = (movie: Movie): Movie => {
-    const posterImage = PlaceHolderImages.find(img => img.id === movie.posterImageId);
-    const heroImage = PlaceHolderImages.find(img => img.id === movie.heroImageId);
-    return {
-      ...movie,
-      posterImageUrl: posterImage?.imageUrl,
-      heroImageUrl: heroImage?.imageUrl,
-    }
-}
 
 // This function simulates fetching data from an API.
 // In a real Next.js app, this would be an API call, and Next.js would cache the result.
@@ -147,10 +149,8 @@ export async function getMovies(query: string = ''): Promise<Movie[]> {
     filteredMovies = movies.filter(movie => movie.title.toLowerCase().includes(query.toLowerCase()));
   }
   
-  const moviesWithImages = filteredMovies.map(attachImageUrls);
-  
   console.log('Movies fetched.');
-  return moviesWithImages;
+  return filteredMovies;
 }
 
 export async function getMovieById(id: string): Promise<Movie | undefined> {
@@ -161,7 +161,7 @@ export async function getMovieById(id: string): Promise<Movie | undefined> {
 
   if (movie) {
     console.log('Movie fetched.');
-    return attachImageUrls(movie);
+    return movie;
   }
   
   return undefined;

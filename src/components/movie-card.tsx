@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Movie } from '@/lib/types';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Star } from 'lucide-react';
@@ -12,20 +11,16 @@ interface MovieCardProps {
 }
 
 export function MovieCard({ movie }: MovieCardProps) {
-  const placeholderImage = PlaceHolderImages.find(
-    (img) => img.id === movie.posterImageId
-  );
 
   return (
     <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group">
       <Link href={`/movies/${movie.id}`} className="group/link block">
         <CardHeader className="p-0">
           <div className="relative aspect-[2/3] w-full">
-            {placeholderImage && (
+            {movie.posterImageUrl && (
               <Image
-                src={placeholderImage.imageUrl}
+                src={movie.posterImageUrl}
                 alt={`Poster for ${movie.title}`}
-                data-ai-hint={placeholderImage.imageHint}
                 fill
                 className="object-cover transition-transform duration-300 group-hover/link:scale-105"
               />
