@@ -16,13 +16,13 @@ export function MovieCard({ movie }: MovieCardProps) {
     <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group">
       <Link href={`/movies/${movie.id}`} className="group/link block">
         <CardHeader className="p-0">
-          <div className="relative aspect-[2/3] w-full">
+          <div className="relative aspect-[2/3] w-full bg-muted/20">
             {movie.posterImageUrl && (
               <Image
                 src={movie.posterImageUrl}
                 alt={`Poster for ${movie.title}`}
                 fill
-                className="object-cover transition-transform duration-300 group-hover/link:scale-105"
+                className="object-contain transition-transform duration-300 group-hover/link:scale-105"
               />
             )}
           </div>
