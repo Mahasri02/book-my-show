@@ -45,8 +45,12 @@ const generateSeats = (): Seat[] => {
 const TICKET_PRICE = 12.50;
 
 export function SeatMap() {
-  const [seats, setSeats] = useState<Seat[]>(generateSeats);
+  const [seats, setSeats] = useState<Seat[]>([]);
   const { toast } = useToast();
+
+  useEffect(() => {
+    setSeats(generateSeats());
+  }, []);
 
   const selectedSeats = useMemo(() => seats.filter((s) => s.status === 'selected'), [seats]);
   const totalPrice = useMemo(() => selectedSeats.length * TICKET_PRICE, [selectedSeats]);
@@ -65,6 +69,8 @@ export function SeatMap() {
   
   // Simulate real-time updates from other users via WebSockets
   useEffect(() => {
+    if (seats.length === 0) return; // Don't run if seats are not initialized yet
+
     const interval = setInterval(() => {
       setSeats(prevSeats => {
         const availableSeats = prevSeats.filter(s => s.status === 'available');
@@ -85,7 +91,7 @@ export function SeatMap() {
     }, 8000); // A new seat is booked every 8 seconds
 
     return () => clearInterval(interval);
-  }, [toast]);
+  }, [seats, toast]);
 
   const resetSelection = () => {
     setSeats(seats.map(seat => seat.status === 'selected' ? {...seat, status: 'available'} : seat));
