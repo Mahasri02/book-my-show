@@ -32,9 +32,9 @@
     },
     {
       "id": "movie-poster-6",
-      "description": "Poster for Dragon",
-      "imageUrl": "https://th.bing.com/th/id/OIP.xu9SRAnOgxrLSDYO0PPaigHaEH?w=254&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-      "imageHint": "fantasy action"
+      "description": "Poster for Vikram",
+      "imageUrl": "https://www.themoviedb.org/t/p/original/rJ2D02nCt3l4I3Fcf1Bf2SjXn0h.jpg",
+      "imageHint": "action thriller"
     },
     {
       "id": "movie-hero-1",
@@ -68,9 +68,9 @@
     },
     {
       "id": "movie-hero-6",
-      "description": "Hero image for Dragon",
-      "imageUrl": "https://images.unsplash.com/photo-1550100136-70133c4604a3?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "fantasy dragon"
+      "description": "Hero image for Vikram",
+      "imageUrl": "https://images.unsplash.com/photo-1599599810694-b5b37304c847?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "masked agent"
     }
   ]
 }
