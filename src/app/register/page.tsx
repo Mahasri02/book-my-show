@@ -55,29 +55,26 @@ export default function RegisterPage() {
   } = form;
 
   const onSubmit = async (values: z.infer<typeof registerSchema>) => {
-    try {
-      // This will create the user but the change will be picked up by the auth state listener
-      initiateEmailSignUp(auth, values.email, values.password);
-
-      // We can't know the UID yet, so we'll listen for user changes
-      // and create the firestore document once the user object is available.
-    } catch (error) {
-      console.error('Registration failed', error);
-    }
+    // This will create the user but the change will be picked up by the auth state listener
+    initiateEmailSignUp(auth, values.email, values.password);
+    // We can't know the UID yet, so we'll listen for user changes
+    // and create the firestore document once the user object is available.
   };
 
   useEffect(() => {
     if (!isUserLoading && user) {
-      const { fullName } = form.getValues();
-      if (fullName) {
+      const { fullName, email } = form.getValues();
+      if (fullName && email) {
         const [firstName, ...lastNameParts] = fullName.split(' ');
         const userDocRef = doc(firestore, 'users', user.uid);
+        // Using merge: true prevents overwriting the document if it already exists
+        // from a previous registration attempt.
         setDocumentNonBlocking(
           userDocRef,
           {
             id: user.uid,
-            username: user.email, // Or a generated username
-            email: user.email,
+            username: email,
+            email: email,
             firstName: firstName,
             lastName: lastNameParts.join(' '),
             registrationDate: new Date().toISOString(),
